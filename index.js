@@ -70,9 +70,6 @@ client.on(Events.MessageCreate, (message) => {
         quickActions(message);
         return;
     } else if (message.channel.id == '1352704486334005279') {
-        message.react('🔥')
-        message.react('❌')
-    } else {
         analyze(message);
     }
 
