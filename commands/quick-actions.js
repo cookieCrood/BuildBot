@@ -9,4 +9,4 @@ module.exports = {
       return;
     }
 
-}
+} // Note: This command requires some parts of the file index.js
